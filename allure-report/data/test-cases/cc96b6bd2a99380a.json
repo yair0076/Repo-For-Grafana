@@ -1,0 +1,454 @@
+{
+  "uid" : "cc96b6bd2a99380a",
+  "name" : "Test06_verifyHeader",
+  "fullName" : "sanity.GrafanaLogin.Test06_verifyHeader",
+  "historyId" : "89bb4aaeff8451f16d6d37d72ca3b67f",
+  "time" : {
+    "start" : 1648929072428,
+    "stop" : 1648929083240,
+    "duration" : 10812
+  },
+  "description" : "this test verify the header of main page",
+  "descriptionHtml" : "<p>this test verify the header of main page</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 24,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648929036344,
+      "stop" : 1648929063973,
+      "duration" : 27629
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1648929072343,
+      "stop" : 1648929072418,
+      "duration" : 75
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "this test verify the header of main page",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business flow: login",
+      "time" : {
+        "start" : 1648929072450,
+        "stop" : 1648929081850,
+        "duration" : 9400
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "send keys text",
+        "time" : {
+          "start" : 1648929073122,
+          "stop" : 1648929074262,
+          "duration" : 1140
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> name: user]"
+        }, {
+          "name" : "text",
+          "value" : "admin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "send keys text",
+        "time" : {
+          "start" : 1648929074363,
+          "stop" : 1648929074842,
+          "duration" : 479
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> id: current-password]"
+        }, {
+          "name" : "text",
+          "value" : "admin"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1648929074869,
+          "stop" : 1648929075790,
+          "duration" : 921
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> class: css-3coq9d-button]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1648929076160,
+          "stop" : 1648929081850,
+          "duration" : 5690
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> xpath: //*[@id=\"reactRoot\"]/div/main/div[3]/div/div[2]/div/form/div[3]/div[2]/button/span]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "admin"
+      }, {
+        "name" : "pass",
+        "value" : "admin"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 4,
+      "hasContent" : true
+    }, {
+      "name" : "verify element in element",
+      "time" : {
+        "start" : 1648929082759,
+        "stop" : 1648929083240,
+        "duration" : 481
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> class: css-1aanzv4]"
+      }, {
+        "name" : "expected",
+        "value" : "Welcome to Grafana"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648929083381,
+      "stop" : 1648929085654,
+      "duration" : 2273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test06_verifyHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "grafana web"
+  }, {
+    "name" : "suite",
+    "value" : "grafana login"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "1492@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "656c4b5f4525233d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648928612293,
+        "stop" : 1648928615976,
+        "duration" : 3683
+      }
+    }, {
+      "uid" : "804cff1237289fe3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648925728215,
+        "stop" : 1648925731548,
+        "duration" : 3333
+      }
+    }, {
+      "uid" : "d0cfeddbd969deb7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648924475193,
+        "stop" : 1648924483096,
+        "duration" : 7903
+      }
+    }, {
+      "uid" : "70c716a264ba2db5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648819980551,
+        "stop" : 1648819983873,
+        "duration" : 3322
+      }
+    }, {
+      "uid" : "3473023d1de3e85",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648809508629,
+        "stop" : 1648809514279,
+        "duration" : 5650
+      }
+    }, {
+      "uid" : "2f122d8ae01582f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665728797,
+        "stop" : 1648665732810,
+        "duration" : 4013
+      }
+    }, {
+      "uid" : "b482265430dbf028",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662813534,
+        "stop" : 1648662813542,
+        "duration" : 8
+      }
+    }, {
+      "uid" : "1b81e1b50e6eb3c9",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662613393,
+        "stop" : 1648662613395,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "4d309a732416564c",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648584892316,
+        "stop" : 1648584892316,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f00c92226db292c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648582209363,
+        "stop" : 1648582217918,
+        "duration" : 8555
+      }
+    }, {
+      "uid" : "a89b500d8723bf6c",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: user' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648581978910,
+        "stop" : 1648581994675,
+        "duration" : 15765
+      }
+    }, {
+      "uid" : "cca078ab55ac3b9",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: user' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648581963416,
+        "stop" : 1648581978672,
+        "duration" : 15256
+      }
+    }, {
+      "uid" : "90cedc642ee5a651",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: user' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648581947980,
+        "stop" : 1648581963214,
+        "duration" : 15234
+      }
+    }, {
+      "uid" : "5db0706c4b798d7a",
+      "status" : "skipped",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648581937595,
+        "stop" : 1648581947088,
+        "duration" : 9493
+      }
+    }, {
+      "uid" : "1f7148c83e41a990",
+      "status" : "broken",
+      "statusDetails" : "chrome not reachable\n  (Session info: chrome=99.0.4844.84)\nBuild info: version: '4.1.1', revision: 'e8fcc2cecf'\nSystem info: host: 'LAPTOP-TOSPREI7', ip: '192.168.68.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_281'\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [f1f3290a6ccbd29271b540d26527ef27, findElement {using=name, value=user}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.84, chrome: {chromedriverVersion: 99.0.4844.51 (d537ec02474b5..., userDataDir: C:\\Users\\E2D1~1\\AppData\\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:55080}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55080/devtoo..., se:cdpVersion: 99.0.4844.84, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f1f3290a6ccbd29271b540d26527ef27",
+      "time" : {
+        "start" : 1648581771417,
+        "stop" : 1648581798511,
+        "duration" : 27094
+      }
+    }, {
+      "uid" : "f4ad112464a0fcfd",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: user' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648581755911,
+        "stop" : 1648581771265,
+        "duration" : 15354
+      }
+    }, {
+      "uid" : "51b565dc2a7cd543",
+      "status" : "skipped",
+      "statusDetails" : "Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.name: user' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648581740541,
+        "stop" : 1648581755685,
+        "duration" : 15144
+      }
+    }, {
+      "uid" : "c556fe12e1909eea",
+      "status" : "skipped",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648581731456,
+        "stop" : 1648581740202,
+        "duration" : 8746
+      }
+    }, {
+      "uid" : "d3695f6fb758bab1",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648578365790,
+        "stop" : 1648578368866,
+        "duration" : 3076
+      }
+    }, {
+      "uid" : "9b2be3097ec0428f",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648577258506,
+        "stop" : 1648577262354,
+        "duration" : 3848
+      }
+    }, {
+      "uid" : "e2244b3877636dc0",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648575397461,
+        "stop" : 1648575405146,
+        "duration" : 7685
+      }
+    }, {
+      "uid" : "78c7e16d4ca9651f",
+      "status" : "failed",
+      "statusDetails" : "expected [Welcome to aaGrafana] but found [Welcome to Grafana]",
+      "time" : {
+        "start" : 1648568353661,
+        "stop" : 1648568357540,
+        "duration" : 3879
+      }
+    }, {
+      "uid" : "91e6a6584e81bbcf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648416443032,
+        "stop" : 1648416445524,
+        "duration" : 2492
+      }
+    }, {
+      "uid" : "9d08752c89b8415a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648413018100,
+        "stop" : 1648413020612,
+        "duration" : 2512
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc96b6bd2a99380a.json",
+  "parameterValues" : [ ]
+}

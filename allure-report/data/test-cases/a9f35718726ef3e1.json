@@ -1,0 +1,300 @@
+{
+  "uid" : "a9f35718726ef3e1",
+  "name" : "Test04_displyForgotLink",
+  "fullName" : "sanity.GrafanaLogin.Test04_displyForgotLink",
+  "historyId" : "9ef9c38317e04155554df2069a12a394",
+  "time" : {
+    "start" : 1648929070578,
+    "stop" : 1648929071264,
+    "duration" : 686
+  },
+  "description" : "this test verify the link: forgot your password",
+  "descriptionHtml" : "<p>this test verify the link: forgot your password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 19,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648929036344,
+      "stop" : 1648929063973,
+      "duration" : 27629
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1648929070501,
+      "stop" : 1648929070573,
+      "duration" : 72
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "this test verify the link: forgot your password",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "verify element  if is displayed",
+      "time" : {
+        "start" : 1648929070822,
+        "stop" : 1648929071264,
+        "duration" : 442
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> link text: Forgot your password?]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648929083381,
+      "stop" : 1648929085654,
+      "duration" : 2273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test04_displyForgotLink"
+  }, {
+    "name" : "parentSuite",
+    "value" : "grafana web"
+  }, {
+    "name" : "suite",
+    "value" : "grafana login"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "1492@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4847e4f12ee38ae2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648928611435,
+        "stop" : 1648928611667,
+        "duration" : 232
+      }
+    }, {
+      "uid" : "5a725945e21a5cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648925727725,
+        "stop" : 1648925727966,
+        "duration" : 241
+      }
+    }, {
+      "uid" : "6180ebbc12a457e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648924474392,
+        "stop" : 1648924474771,
+        "duration" : 379
+      }
+    }, {
+      "uid" : "131a32f3c0aa5a4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648819979915,
+        "stop" : 1648819980106,
+        "duration" : 191
+      }
+    }, {
+      "uid" : "62252f24b2a14c2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648809507710,
+        "stop" : 1648809508059,
+        "duration" : 349
+      }
+    }, {
+      "uid" : "c46163c42fced426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665728153,
+        "stop" : 1648665728292,
+        "duration" : 139
+      }
+    }, {
+      "uid" : "a04f31ce7ea1abd4",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662813354,
+        "stop" : 1648662813391,
+        "duration" : 37
+      }
+    }, {
+      "uid" : "7888b56a8ae3a53b",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662613279,
+        "stop" : 1648662613282,
+        "duration" : 3
+      }
+    }, {
+      "uid" : "74e09539e037b623",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648584892284,
+        "stop" : 1648584892284,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "c234acc6dc337cf9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648582207777,
+        "stop" : 1648582208265,
+        "duration" : 488
+      }
+    }, {
+      "uid" : "433690c5c579bf5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648581936422,
+        "stop" : 1648581936942,
+        "duration" : 520
+      }
+    }, {
+      "uid" : "5e787cbec66d39b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648581730122,
+        "stop" : 1648581730466,
+        "duration" : 344
+      }
+    }, {
+      "uid" : "986040d3a021021d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648578365138,
+        "stop" : 1648578365285,
+        "duration" : 147
+      }
+    }, {
+      "uid" : "d88e0392f728513e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648577257845,
+        "stop" : 1648577258135,
+        "duration" : 290
+      }
+    }, {
+      "uid" : "6e3ff18abb5db3ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648576741407,
+        "stop" : 1648576776166,
+        "duration" : 34759
+      }
+    }, {
+      "uid" : "278633bdeac7dc11",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648575395074,
+        "stop" : 1648575395409,
+        "duration" : 335
+      }
+    }, {
+      "uid" : "9bad6b6686531225",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648568352770,
+        "stop" : 1648568353256,
+        "duration" : 486
+      }
+    }, {
+      "uid" : "2b5153ac2aa612d8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648416442699,
+        "stop" : 1648416442876,
+        "duration" : 177
+      }
+    }, {
+      "uid" : "13476f86295c6e4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648413017761,
+        "stop" : 1648413017938,
+        "duration" : 177
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9f35718726ef3e1.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,271 @@
+[ {
+  "uid" : "1ca1570c9825e9b2",
+  "name" : "Test05_VerifyEnabledButton",
+  "time" : {
+    "start" : 1648664362989,
+    "stop" : 1648664362990,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "59bf2c968028814",
+  "name" : "Test02_displyEmailNote",
+  "time" : {
+    "start" : 1648664362932,
+    "stop" : 1648664362934,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "87cf011003d277f3",
+  "name" : "Test04_displyForgotLink",
+  "time" : {
+    "start" : 1648664362969,
+    "stop" : 1648664362971,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f56fdface1c22fdb",
+  "name" : "Test04_Search Users",
+  "time" : {
+    "start" : 1648929137118,
+    "stop" : 1648929150257,
+    "duration" : 13139
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad725f3077a31274",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648585958541,
+    "stop" : 1648585958541,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b2cb8cbb0f75877a",
+  "name" : "Test01_displyTitleLogin",
+  "time" : {
+    "start" : 1648664362912,
+    "stop" : 1648664362914,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "f08da7bb1940ff",
+  "name" : "Test03_displyPassNote",
+  "time" : {
+    "start" : 1648664362949,
+    "stop" : 1648664362950,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "4e955bde420d2d19",
+  "name" : "Test01_verifyToolBar",
+  "time" : {
+    "start" : 1648929094807,
+    "stop" : 1648929106361,
+    "duration" : 11554
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e87d885fdf725996",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648664362411,
+    "stop" : 1648664362415,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a9f35718726ef3e1",
+  "name" : "Test04_displyForgotLink",
+  "time" : {
+    "start" : 1648929070578,
+    "stop" : 1648929071264,
+    "duration" : 686
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1636f8d0587c23b3",
+  "name" : "Test02_displyEmailNote",
+  "time" : {
+    "start" : 1648929069297,
+    "stop" : 1648929069846,
+    "duration" : 549
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9122d061eac6c3de",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648664363050,
+    "stop" : 1648664363050,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a565f074da0c4f49",
+  "name" : "Test01_verifyToolBar",
+  "time" : {
+    "start" : 1648664363037,
+    "stop" : 1648664363037,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "629a45bea62994e8",
+  "name" : "Test03_VerifyDeletionUser",
+  "time" : {
+    "start" : 1648670662288,
+    "stop" : 1648670678276,
+    "duration" : 15988
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "aa82bb1fa67be079",
+  "name" : "Test02_VerifyNewUser",
+  "time" : {
+    "start" : 1648664363072,
+    "stop" : 1648664363073,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "43d2779b2c7131ef",
+  "name" : "Test05_VerifyEnabledButton",
+  "time" : {
+    "start" : 1648929071493,
+    "stop" : 1648929072187,
+    "duration" : 694
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2fbd1250e66958",
+  "name" : "Test06_verifyHeader",
+  "time" : {
+    "start" : 1648664363002,
+    "stop" : 1648664363003,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2fc72771a8c9d32a",
+  "name" : "Test01_verifyDefaultUser",
+  "time" : {
+    "start" : 1648664363058,
+    "stop" : 1648664363059,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "c2bb4362bc2a03f5",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648585958023,
+    "stop" : 1648585958026,
+    "duration" : 3
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2d3e96d307d015ac",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648585958516,
+    "stop" : 1648585958516,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "def7944b4614bff5",
+  "name" : "Test03_displyPassNote",
+  "time" : {
+    "start" : 1648929069989,
+    "stop" : 1648929070418,
+    "duration" : 429
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5937cd0579741a8b",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648662812955,
+    "stop" : 1648662812964,
+    "duration" : 9
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "898c5d9e58453584",
+  "name" : "StartSession",
+  "time" : {
+    "start" : 1648664363024,
+    "stop" : 1648664363024,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cc96b6bd2a99380a",
+  "name" : "Test06_verifyHeader",
+  "time" : {
+    "start" : 1648929072428,
+    "stop" : 1648929083240,
+    "duration" : 10812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f6f30f5f0241e015",
+  "name" : "Test02_VerifyNewUser",
+  "time" : {
+    "start" : 1648929120236,
+    "stop" : 1648929136676,
+    "duration" : 16440
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "46be6559aafa9942",
+  "name" : "Test01_verifyDefaultUser",
+  "time" : {
+    "start" : 1648929115424,
+    "stop" : 1648929119675,
+    "duration" : 4251
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f77ce3e56329b3e1",
+  "name" : "Test01_displyTitleLogin",
+  "time" : {
+    "start" : 1648929065981,
+    "stop" : 1648929069060,
+    "duration" : 3079
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

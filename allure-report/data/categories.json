@@ -1,0 +1,203 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "StartSession",
+        "uid" : "c2bb4362bc2a03f5",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648585958023,
+          "stop" : 1648585958026,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "null", "web" ]
+      }, {
+        "name" : "StartSession",
+        "uid" : "2d3e96d307d015ac",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648585958516,
+          "stop" : 1648585958516,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "null", "web" ]
+      }, {
+        "name" : "StartSession",
+        "uid" : "ad725f3077a31274",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648585958541,
+          "stop" : 1648585958541,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "null", "web" ]
+      }, {
+        "name" : "StartSession",
+        "uid" : "e87d885fdf725996",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648664362411,
+          "stop" : 1648664362415,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "StartSession",
+        "uid" : "898c5d9e58453584",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648664363024,
+          "stop" : 1648664363024,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "StartSession",
+        "uid" : "9122d061eac6c3de",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648664363050,
+          "stop" : 1648664363050,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    }, {
+      "name" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "StartSession",
+        "uid" : "5937cd0579741a8b",
+        "parentUid" : "a1b813526302bc3eb6f85bf0168b0eda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648662812955,
+          "stop" : 1648662812964,
+          "duration" : 9
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a1b813526302bc3eb6f85bf0168b0eda"
+    }, {
+      "name" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"reactRoot\"]/div/main/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/button[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "children" : [ {
+        "name" : "Test03_VerifyDeletionUser",
+        "uid" : "629a45bea62994e8",
+        "parentUid" : "e3f95daa09b025c880836497d70daa9f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648670662288,
+          "stop" : 1648670678276,
+          "duration" : 15988
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e3f95daa09b025c880836497d70daa9f"
+    }, {
+      "name" : "-1",
+      "children" : [ {
+        "name" : "Test02_VerifyNewUser",
+        "uid" : "f6f30f5f0241e015",
+        "parentUid" : "fa1dc5d43b310f05e9a184702e192935",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648929120236,
+          "stop" : 1648929136676,
+          "duration" : 16440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 13,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa1dc5d43b310f05e9a184702e192935"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [1] but found [2]",
+      "children" : [ {
+        "name" : "Test01_verifyDefaultUser",
+        "uid" : "46be6559aafa9942",
+        "parentUid" : "a7fb50048f215231d95300260487617b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648929115424,
+          "stop" : 1648929119675,
+          "duration" : 4251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 14,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a7fb50048f215231d95300260487617b"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

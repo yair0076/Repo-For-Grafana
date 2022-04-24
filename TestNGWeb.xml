@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="grafana web" parallel="false">
+    <listeners>
+        <listener class-name="utilities.Listeners"></listener>
+    </listeners>
+    <test name="grafana login">
+        <classes>
+            <class name="sanity.GrafanaLogin"></class>
+            <class name="sanity.GrafanaMainPage"></class>
+            <class name="sanity.GrafanaServerAdmin">
+                <methods>
+                    <exclude name="Test03_VerifyDeletionUser"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

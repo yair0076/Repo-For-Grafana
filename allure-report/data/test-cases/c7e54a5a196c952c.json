@@ -1,0 +1,159 @@
+{
+  "uid" : "c7e54a5a196c952c",
+  "name" : "Test05_VerifyEnabledButton",
+  "fullName" : "sanity.GrafanaLogin.Test05_VerifyEnabledButton",
+  "historyId" : "99c2a1ab8a58bceb4153d54c89d9f9b6",
+  "time" : {
+    "start" : 1648581731038,
+    "stop" : 1648581731379,
+    "duration" : 341
+  },
+  "description" : "this test verify the enable of login button",
+  "descriptionHtml" : "<p>this test verify the enable of login button</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648581715751,
+      "stop" : 1648581726273,
+      "duration" : 10522
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "beforeMethod",
+    "time" : {
+      "start" : 1648581730512,
+      "stop" : 1648581731025,
+      "duration" : 513
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "this test verify the enable of login button",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "verify element  if is enabled",
+      "time" : {
+        "start" : 1648581731086,
+        "stop" : 1648581731379,
+        "duration" : 293
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (f1f3290a6ccbd29271b540d26527ef27)] -> class: css-3coq9d-button]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "afterMethod",
+    "time" : {
+      "start" : 1648581731394,
+      "stop" : 1648581731394,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648581798977,
+      "stop" : 1648581800869,
+      "duration" : 1892
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test05_VerifyEnabledButton"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "FinalGrafanaProject"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "18436@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c7e54a5a196c952c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,206 @@
+{
+  "uid" : "8003851f294afea1",
+  "name" : "Test04_Search Users",
+  "fullName" : "sanity.GrafanaServerAdmin.Test04_SearchUsers",
+  "historyId" : "96b1e75ea5462d367721f06654d6286d",
+  "time" : {
+    "start" : 1648928649801,
+    "stop" : 1648928663572,
+    "duration" : 13771
+  },
+  "description" : "this test searched users in  a table using DDT",
+  "descriptionHtml" : "<p>this test searched users in  a table using DDT</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648928625018,
+      "stop" : 1648928628728,
+      "duration" : 3710
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1648928649780,
+      "stop" : 1648928649796,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "this test searched users in  a table using DDT",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "mouse over between two elements",
+      "time" : {
+        "start" : 1648928649864,
+        "stop" : 1648928650645,
+        "duration" : 781
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (b68affe58fae90cc810dc52dc530d303)] -> xpath: //*[@id=\"reactRoot\"]/div/nav/div[3]/div[6]]"
+      }, {
+        "name" : "elem2",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (b68affe58fae90cc810dc52dc530d303)] -> xpath: //body/div[@id='reactRoot']/div[1]/nav[1]/div[3]/div[6]/ul[1]/li[2]/a[1]]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Business flow: search and verify user",
+      "time" : {
+        "start" : 1648928650645,
+        "stop" : 1648928663394,
+        "duration" : 12749
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "send keys text as human",
+        "time" : {
+          "start" : 1648928650716,
+          "stop" : 1648928653365,
+          "duration" : 2649
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (b68affe58fae90cc810dc52dc530d303)] -> class: css-fcoerl-input-input]"
+        }, {
+          "name" : "text",
+          "value" : "yair"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      }, {
+        "name" : "verify element not displayed ",
+        "time" : {
+          "start" : 1648928658376,
+          "stop" : 1648928663394,
+          "duration" : 5018
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elements",
+          "value" : "[]"
+        } ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "yair"
+      }, {
+        "name" : "shouldExist",
+        "value" : "not-exists"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 2,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648928663582,
+      "stop" : 1648928664485,
+      "duration" : 903
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaServerAdmin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaServerAdmin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test04_SearchUsers"
+  }, {
+    "name" : "parentSuite",
+    "value" : "grafana web"
+  }, {
+    "name" : "suite",
+    "value" : "grafana login"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaServerAdmin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "1948@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8003851f294afea1.json",
+  "parameterValues" : [ ]
+}

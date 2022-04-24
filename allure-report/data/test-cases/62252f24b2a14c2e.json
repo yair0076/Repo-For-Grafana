@@ -1,0 +1,114 @@
+{
+  "uid" : "62252f24b2a14c2e",
+  "name" : "Test04_displyForgotLink",
+  "fullName" : "sanity.GrafanaLogin.Test04_displyForgotLink",
+  "historyId" : "9ef9c38317e04155554df2069a12a394",
+  "time" : {
+    "start" : 1648809507710,
+    "stop" : 1648809508059,
+    "duration" : 349
+  },
+  "description" : "this test verify the link: forgot your password",
+  "descriptionHtml" : "<p>this test verify the link: forgot your password</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648809488140,
+      "stop" : 1648809505142,
+      "duration" : 17002
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1648809507689,
+      "stop" : 1648809507703,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648809514330,
+      "stop" : 1648809515626,
+      "duration" : 1296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test04_displyForgotLink"
+  }, {
+    "name" : "parentSuite",
+    "value" : "grafana web"
+  }, {
+    "name" : "suite",
+    "value" : "grafana login"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "3628@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "62252f24b2a14c2e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,16 @@
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\Base.java
+C:\automation course\FinalGrafanaProject\src\main\java\workflow\GrafanaFlows.java
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\RetryAnalyzer.java
+C:\automation course\FinalGrafanaProject\src\main\java\extentions\Verifications.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\LoginPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\ServerAdminMainPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\ServerAdminEditUserPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\ManagePages.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\ServerAdminAddNewUser.java
+C:\automation course\FinalGrafanaProject\src\main\java\extentions\UIActions.java
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\CommonOps.java
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\Listeners.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\ServerAdminLeftMenuPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\LeftMenuPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\pageObjects\grafana\MainPage.java
+C:\automation course\FinalGrafanaProject\src\main\java\utilities\MonteScreenRecorder.java

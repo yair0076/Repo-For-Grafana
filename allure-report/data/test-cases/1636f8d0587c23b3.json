@@ -1,0 +1,308 @@
+{
+  "uid" : "1636f8d0587c23b3",
+  "name" : "Test02_displyEmailNote",
+  "fullName" : "sanity.GrafanaLogin.Test02_displyEmailNote",
+  "historyId" : "18afb108ec38550f8a25ea4b214ed958",
+  "time" : {
+    "start" : 1648929069297,
+    "stop" : 1648929069846,
+    "duration" : 549
+  },
+  "description" : "this test verify the email and user name sentence",
+  "descriptionHtml" : "<p>this test verify the email and user name sentence</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 20,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1648929036344,
+      "stop" : 1648929063973,
+      "duration" : 27629
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "BeforeMethod",
+    "time" : {
+      "start" : 1648929069226,
+      "stop" : 1648929069273,
+      "duration" : 47
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "this test verify the email and user name sentence",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "verify element  if is displayed",
+      "time" : {
+        "start" : 1648929069356,
+        "stop" : 1648929069846,
+        "duration" : 490
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on WINDOWS (1d75d20a5bfb2e37bd717168ffafc870)] -> class: css-xhqy0o]"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1648929083381,
+      "stop" : 1648929085654,
+      "duration" : 2273
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_displyEmailNote"
+  }, {
+    "name" : "parentSuite",
+    "value" : "grafana web"
+  }, {
+    "name" : "suite",
+    "value" : "grafana login"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.GrafanaLogin"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-TOSPREI7"
+  }, {
+    "name" : "thread",
+    "value" : "1492@LAPTOP-TOSPREI7.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5fce07b73add8212",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648928610729,
+        "stop" : 1648928611022,
+        "duration" : 293
+      }
+    }, {
+      "uid" : "4581ebbaddb97eff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648925727111,
+        "stop" : 1648925727431,
+        "duration" : 320
+      }
+    }, {
+      "uid" : "5b9d654d888e482f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648924473456,
+        "stop" : 1648924473851,
+        "duration" : 395
+      }
+    }, {
+      "uid" : "307f7cbf32ff7c1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648819979120,
+        "stop" : 1648819979278,
+        "duration" : 158
+      }
+    }, {
+      "uid" : "41844a9dec16942b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648809506854,
+        "stop" : 1648809507338,
+        "duration" : 484
+      }
+    }, {
+      "uid" : "1e692c060f08627e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648665727088,
+        "stop" : 1648665727278,
+        "duration" : 190
+      }
+    }, {
+      "uid" : "f250ca9570280d42",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662813275,
+        "stop" : 1648662813275,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "946974f9cd45f7ca",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662613214,
+        "stop" : 1648662613214,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "1c3ce3f2daf73392",
+      "status" : "skipped",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648584892248,
+        "stop" : 1648584892252,
+        "duration" : 4
+      }
+    }, {
+      "uid" : "b23b352907cc4aa8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648582205793,
+        "stop" : 1648582206264,
+        "duration" : 471
+      }
+    }, {
+      "uid" : "d5c60e05e30deb8b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648581934258,
+        "stop" : 1648581934676,
+        "duration" : 418
+      }
+    }, {
+      "uid" : "92bc9e4cd7c1f01c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648581728053,
+        "stop" : 1648581728639,
+        "duration" : 586
+      }
+    }, {
+      "uid" : "1b25c51e56fff596",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648578364400,
+        "stop" : 1648578364546,
+        "duration" : 146
+      }
+    }, {
+      "uid" : "6d578f92203d5cee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648577256773,
+        "stop" : 1648577257445,
+        "duration" : 672
+      }
+    }, {
+      "uid" : "a2514d60525a728c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648576850538,
+        "stop" : 1648576851705,
+        "duration" : 1167
+      }
+    }, {
+      "uid" : "7ced985d04c3deaf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648576738595,
+        "stop" : 1648576740541,
+        "duration" : 1946
+      }
+    }, {
+      "uid" : "a7c47afaf31c7245",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648575394256,
+        "stop" : 1648575394633,
+        "duration" : 377
+      }
+    }, {
+      "uid" : "af4e2987347d90eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648568351433,
+        "stop" : 1648568352047,
+        "duration" : 614
+      }
+    }, {
+      "uid" : "695e1cda831ff8e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648416442357,
+        "stop" : 1648416442524,
+        "duration" : 167
+      }
+    }, {
+      "uid" : "afa040be3e478469",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648413017418,
+        "stop" : 1648413017575,
+        "duration" : 157
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1636f8d0587c23b3.json",
+  "parameterValues" : [ ]
+}

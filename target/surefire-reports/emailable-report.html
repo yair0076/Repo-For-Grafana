@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">grafana web</th></tr>
+<tr><td><a href="#t0">grafana login</a></td><td class="num">8</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">115,395</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">grafana web</th></tr></tbody><tbody id="t0"><tr><th colspan="4">grafana login &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">sanity.GrafanaServerAdmin</td><td><a href="#m0">Test01_verifyDefaultUser</a></td><td rowspan="1">1648929115420</td><td rowspan="1">4254</td></tr><tr class="failedeven"><td><a href="#m1">Test02_VerifyNewUser</a></td><td rowspan="1">1648929120232</td><td rowspan="1">16442</td></tr><tr><th colspan="4">grafana login &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">sanity.GrafanaLogin</td><td><a href="#m2">Test01_displyTitleLogin</a></td><td rowspan="1">1648929065708</td><td rowspan="1">3335</td></tr><tr class="passedeven"><td><a href="#m3">Test02_displyEmailNote</a></td><td rowspan="1">1648929069283</td><td rowspan="1">563</td></tr><tr class="passedeven"><td><a href="#m4">Test03_displyPassNote</a></td><td rowspan="1">1648929069983</td><td rowspan="1">434</td></tr><tr class="passedeven"><td><a href="#m5">Test04_displyForgotLink</a></td><td rowspan="1">1648929070575</td><td rowspan="1">689</td></tr><tr class="passedeven"><td><a href="#m6">Test05_VerifyEnabledButton</a></td><td rowspan="1">1648929071482</td><td rowspan="1">705</td></tr><tr class="passedeven"><td><a href="#m7">Test06_verifyHeader</a></td><td rowspan="1">1648929072426</td><td rowspan="1">10814</td></tr><tr class="passedodd"><td rowspan="1">sanity.GrafanaMainPage</td><td><a href="#m8">Test01_verifyToolBar</a></td><td rowspan="1">1648929094780</td><td rowspan="1">11581</td></tr><tr class="passedeven"><td rowspan="1">sanity.GrafanaServerAdmin</td><td><a href="#m9">Test04_SearchUsers</a></td><td rowspan="1">1648929137116</td><td rowspan="1">13141</td></tr></tbody>
+</table>
+<h2>grafana login</h2><h3 id="m0">sanity.GrafanaServerAdmin#Test01_verifyDefaultUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [1] but found [2]
+	at extentions.Verifications.VerifyNumOfElements(Verifications.java:37)
+	at sanity.GrafanaServerAdmin.Test01_verifyDefaultUser(GrafanaServerAdmin.java:18)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 37 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">sanity.GrafanaServerAdmin#Test02_VerifyNewUser</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.ArrayIndexOutOfBoundsException: -1
+	at java.util.ArrayList.elementData(ArrayList.java:424)
+	at java.util.ArrayList.get(ArrayList.java:437)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:40)
+	at com.sun.proxy.$Proxy15.get(Unknown Source)
+	at extentions.Verifications.VerifyNumOfElements(Verifications.java:36)
+	at sanity.GrafanaServerAdmin.Test02_VerifyNewUser(GrafanaServerAdmin.java:25)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">sanity.GrafanaLogin#Test01_displyTitleLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">sanity.GrafanaLogin#Test02_displyEmailNote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">sanity.GrafanaLogin#Test03_displyPassNote</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">sanity.GrafanaLogin#Test04_displyForgotLink</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">sanity.GrafanaLogin#Test05_VerifyEnabledButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">sanity.GrafanaLogin#Test06_verifyHeader</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">sanity.GrafanaMainPage#Test01_verifyToolBar</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">sanity.GrafanaServerAdmin#Test04_SearchUsers</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

@@ -1,0 +1,561 @@
+{
+  "18afb108ec38550f8a25ea4b214ed958" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1636f8d0587c23b3",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/1636f8d0587c23b3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929069297,
+        "stop" : 1648929069846,
+        "duration" : 549
+      }
+    } ]
+  },
+  "6fe47aa4f849a894eb8b2665a9a72031" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "def7944b4614bff5",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/def7944b4614bff5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929069989,
+        "stop" : 1648929070418,
+        "duration" : 429
+      }
+    } ]
+  },
+  "2b92b1650fee2e17e7d2118c98c5729a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e87d885fdf725996",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/e87d885fdf725996",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362411,
+        "stop" : 1648664362415,
+        "duration" : 4
+      }
+    } ]
+  },
+  "eea94406b3de29aeaee779f2ca840dda" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e955bde420d2d19",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/4e955bde420d2d19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929094807,
+        "stop" : 1648929106361,
+        "duration" : 11554
+      }
+    } ]
+  },
+  "3d357a95baa7ed1c43569747b502d98a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f2fbd1250e66958",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/f2fbd1250e66958",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363002,
+        "stop" : 1648664363003,
+        "duration" : 1
+      }
+    } ]
+  },
+  "468e0d9e61ce64759a9fe2f5e54dc0a9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad725f3077a31274",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/ad725f3077a31274",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648585958541,
+        "stop" : 1648585958541,
+        "duration" : 0
+      }
+    } ]
+  },
+  "da35d3888de9474e6dafed8f0b37a852" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa82bb1fa67be079",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/aa82bb1fa67be079",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363072,
+        "stop" : 1648664363073,
+        "duration" : 1
+      }
+    } ]
+  },
+  "7c4eeedc14799cdc6b104c3546480182" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f77ce3e56329b3e1",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/f77ce3e56329b3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929065981,
+        "stop" : 1648929069060,
+        "duration" : 3079
+      }
+    } ]
+  },
+  "99c2a1ab8a58bceb4153d54c89d9f9b6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "43d2779b2c7131ef",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/43d2779b2c7131ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929071493,
+        "stop" : 1648929072187,
+        "duration" : 694
+      }
+    } ]
+  },
+  "96b1e75ea5462d367721f06654d6286d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f56fdface1c22fdb",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/f56fdface1c22fdb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929137118,
+        "stop" : 1648929150257,
+        "duration" : 13139
+      }
+    } ]
+  },
+  "a14825e3bbc41837b2ed2dd108b95349" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fc72771a8c9d32a",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/2fc72771a8c9d32a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363058,
+        "stop" : 1648664363059,
+        "duration" : 1
+      }
+    } ]
+  },
+  "458a988ce61135f2ca259d2b651c6ab2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59bf2c968028814",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/59bf2c968028814",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362932,
+        "stop" : 1648664362934,
+        "duration" : 2
+      }
+    } ]
+  },
+  "2d00aeacb7dc25dc89135f3ad75fc4a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f08da7bb1940ff",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/f08da7bb1940ff",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362949,
+        "stop" : 1648664362950,
+        "duration" : 1
+      }
+    } ]
+  },
+  "1318c186da1e35941c069ce17d6f0147" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87cf011003d277f3",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/87cf011003d277f3",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362969,
+        "stop" : 1648664362971,
+        "duration" : 2
+      }
+    } ]
+  },
+  "e582052ecd4e374c8157cde6b28f32da" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2cb8cbb0f75877a",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/b2cb8cbb0f75877a",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362912,
+        "stop" : 1648664362914,
+        "duration" : 2
+      }
+    } ]
+  },
+  "3dec0eda6bb6fad4112568ddc35a0640" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ca1570c9825e9b2",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/1ca1570c9825e9b2",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664362989,
+        "stop" : 1648664362990,
+        "duration" : 1
+      }
+    } ]
+  },
+  "83f0e319bb13477fc27280e3ec9d1c41" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5937cd0579741a8b",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/5937cd0579741a8b",
+      "status" : "broken",
+      "statusDetails" : "\nParameter 'Platform' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\יאיר\\AppData\\Local\\JetBrains\\IdeaIC2021.1\\temp-testng-customsuite.xml",
+      "time" : {
+        "start" : 1648662812955,
+        "stop" : 1648662812964,
+        "duration" : 9
+      }
+    } ]
+  },
+  "271090c285a19cc8393f6d516a831c0d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "898c5d9e58453584",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/898c5d9e58453584",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363024,
+        "stop" : 1648664363024,
+        "duration" : 0
+      }
+    } ]
+  },
+  "cc75bae46c33c5d00786521600c8b1a4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f6f30f5f0241e015",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/f6f30f5f0241e015",
+      "status" : "broken",
+      "statusDetails" : "-1",
+      "time" : {
+        "start" : 1648929120236,
+        "stop" : 1648929136676,
+        "duration" : 16440
+      }
+    } ]
+  },
+  "cb97ad6368d696c9c4d8ce7e8eda8a78" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9122d061eac6c3de",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/9122d061eac6c3de",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363050,
+        "stop" : 1648664363050,
+        "duration" : 0
+      }
+    } ]
+  },
+  "f6e09a8d5d2be8d88640b16eb47d5afe" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "629a45bea62994e8",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/629a45bea62994e8",
+      "status" : "broken",
+      "statusDetails" : "Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //*[@id=\"reactRoot\"]/div/main/div[3]/div/div[1]/div/div[2]/div[1]/div[2]/button[1]' (tried for 5 second(s) with 500 milliseconds interval)",
+      "time" : {
+        "start" : 1648670662288,
+        "stop" : 1648670678276,
+        "duration" : 15988
+      }
+    } ]
+  },
+  "9ef9c38317e04155554df2069a12a394" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a9f35718726ef3e1",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/a9f35718726ef3e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929070578,
+        "stop" : 1648929071264,
+        "duration" : 686
+      }
+    } ]
+  },
+  "2aa7d2207053f51d372704712770c712" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c2bb4362bc2a03f5",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/c2bb4362bc2a03f5",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648585958023,
+        "stop" : 1648585958026,
+        "duration" : 3
+      }
+    } ]
+  },
+  "e3aa034c75c73d08d81aea6fab3c7fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d3e96d307d015ac",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/2d3e96d307d015ac",
+      "status" : "broken",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648585958516,
+        "stop" : 1648585958516,
+        "duration" : 0
+      }
+    } ]
+  },
+  "89bb4aaeff8451f16d6d37d72ca3b67f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc96b6bd2a99380a",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/cc96b6bd2a99380a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1648929072428,
+        "stop" : 1648929083240,
+        "duration" : 10812
+      }
+    } ]
+  },
+  "e66f96ba7243a20055ffa7dae427c73f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "46be6559aafa9942",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/46be6559aafa9942",
+      "status" : "failed",
+      "statusDetails" : "expected [1] but found [2]",
+      "time" : {
+        "start" : 1648929115424,
+        "stop" : 1648929119675,
+        "duration" : 4251
+      }
+    } ]
+  },
+  "6171202b8885b026882603349cd2e0ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a565f074da0c4f49",
+      "reportUrl" : "http://localhost:8080/job/Sanity%20Tests%20Web/4/allure/#testresult/a565f074da0c4f49",
+      "status" : "skipped",
+      "statusDetails" : "java.lang.NullPointerException",
+      "time" : {
+        "start" : 1648664363037,
+        "stop" : 1648664363037,
+        "duration" : 0
+      }
+    } ]
+  }
+}

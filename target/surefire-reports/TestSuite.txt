@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 124.959 s <<< FAILURE! - in TestSuite
+Test01_verifyDefaultUser(sanity.GrafanaServerAdmin)  Time elapsed: 4.783 s  <<< FAILURE!
+java.lang.AssertionError: expected [1] but found [2]
+	at sanity.GrafanaServerAdmin.Test01_verifyDefaultUser(GrafanaServerAdmin.java:18)
+
+Test02_VerifyNewUser(sanity.GrafanaServerAdmin)  Time elapsed: 16.854 s  <<< FAILURE!
+java.lang.ArrayIndexOutOfBoundsException: -1
+	at sanity.GrafanaServerAdmin.Test02_VerifyNewUser(GrafanaServerAdmin.java:25)
+
